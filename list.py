@@ -11,7 +11,10 @@ def data():
 def index_data():
     for i in range(len(my_list)):
         print("索引是：{},索引对应的数值是：{}".format(i,my_list[i]))
+    print('\n')
 my_list=[1,2,3,4,5]
 index()
 data()
 index_data()
+
+print("直接打印数组：{}".format(my_list))
